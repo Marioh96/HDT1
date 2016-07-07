@@ -16,8 +16,8 @@ public interface Radio {
     void subirEmisora(double emisora);
     void bajarEmisora(double emisora);
     
-    void saveEmisora(int btn);
-    void selectEmisora(int btn);
+    void saveEmisora(int btn, double emisora);
+    double selectEmisora(int btn);
     boolean getEncendido();
     boolean getFrecuencia();
     double getEmisora();
