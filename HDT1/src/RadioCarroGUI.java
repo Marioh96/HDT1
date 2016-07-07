@@ -1,13 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/*Universidad del Valle de Guatemala
+* Algoritmos y Estructuras de datos - Seccion 30
+* Rodrigo Barrios, carne 15009
+* Mario Hernandez, carne 15135
+* Joice Miranda, carne 15552
 
-/**
- *
- * @author Rodrigo
- */
+* RadioCarroGUI.java
+*Esta es la interfaz grafica del radio de un carro, que crea un objeto RadioCarro para su funcionamiento
+*/
 public class RadioCarroGUI extends javax.swing.JFrame {
 
     /**
