@@ -9,17 +9,15 @@
 */
 public interface Radio {
     
-    void setEncendido(boolean estado);
-    void setFrecuencia(boolean frecuencia);
-    void setEmisora(double emisora);
-    /*Los siguientes dos metodos los agregue para que fuera mas facil usar los botones del GUI para cambiar la emisora*/
-    void subirEmisora(double emisora);
-    void bajarEmisora(double emisora);
+    public void setEncendido(boolean estado);
+    public void setFrecuencia(boolean frecuencia);
+    public void setEmisora(double emisora);
+    public void saveEmisora(int btn, double emisora);
+    public double selectEmisora(int btn);
+    public boolean getEncendido();
+    public boolean getFrecuencia();
+    public double getEmisora();
     
-    void saveEmisora(int btn, double emisora);
-    double selectEmisora(int btn);
-    boolean getEncendido();
-    boolean getFrecuencia();
-    double getEmisora();
-    
+    public void subirEmisora(double emisora);
+    public void bajarEmisora(double emisora);
 }
