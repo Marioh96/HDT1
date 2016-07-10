@@ -9,15 +9,15 @@
 */
 public interface Radio {
     
-    public void setEncendido(boolean estado);
-    public void setFrecuencia(boolean frecuencia);
-    public void setEmisora(double emisora);
-    public void saveEmisora(int btn, double emisora);
-    public double selectEmisora(int btn);
-    public boolean getEncendido();
-    public boolean getFrecuencia();
-    public double getEmisora();
+    void setEncendido();
+    void setFrecuencia();
+    void setEmisora(double nuevaEmisora);
+    void saveEmisora(int btn, double emisora);
+    double selectEmisora(int btn);
+    boolean getEncendido();
+    boolean getFrecuencia();
+    double getEmisora();
     
-    public void subirEmisora(double emisora);
-    public void bajarEmisora(double emisora);
+    /*public void subirEmisora(double emisora);
+    public void bajarEmisora(double emisora);*/
 }
